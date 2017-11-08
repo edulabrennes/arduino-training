@@ -14,4 +14,4 @@ Branchements:
 - CS --> Pin 9
 - CLK --> Pin 10
 
-Artice Utilisé : http://tiptopboards.free.fr/arduino_forum/viewtopic.php?t=6&p=6
+Article Utilisé : http://tiptopboards.free.fr/arduino_forum/viewtopic.php?t=6&p=6
