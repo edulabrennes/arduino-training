@@ -1,3 +1,5 @@
+Voir les valeurs d'hydrométire dans le moniteur de série
+
 ## Branchements
 
 Connect the + to 5V on the arduino
@@ -12,4 +14,3 @@ Attention : ne pas tenir le capteur au niveau des lignes ça pourrait le DETERIO
 ## Code 
 
 voir fichier watersensor.ino
-
