@@ -1,4 +1,4 @@
-Voir les valeurs d'hydrométire dans le moniteur de série
+Voir les valeurs d'hydrométire dans le moniteur série
 
 ## Branchements
 
