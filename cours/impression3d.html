@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>UEO - Fabrication numérique</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/beige.css" id="theme"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>UEO - Fabrication numérique</h1></section><section id="_qu_est_ce_que_la_fabrication_numrique"><h2>Qu&#8217;est ce que la fabrication numérique</h2><div class="ulist"><ul><li class="fragment"><p>C’est fabriquer avec une machine à commandes numériques</p></li><li class="fragment"><p><a href="https://www.youtube.com/watch?v=UrMrgyjhTOk">Quel est le lien avec les fablabs ?</a></p></li><li class="fragment"><p>&#8230;&#8203; cette pratique s&#8217;est développée avec le DIY et les machines à commandes numériques bon marché</p></li></ul></div></section>
+<section id="_les_imprimantes_3d"><h2>Les imprimantes 3D</h2><div class="ulist"><ul><li class="fragment"><p>Première machine créée en 1980 (<a href="https://www.sculpteo.com/blog/wp-content/uploads/2016/12/History-3DP-blog.jpg">Japon - Dr Kodama Rapid prototyping</a>)</p></li><li class="fragment"><p>Démocratisation avec <a href="https://www.machines-3d.com/images/Image/M_001_makerbot21_1402923636-1-1-1-1-1-1-1.png">Makerbot</a> en 2010</p></li><li class="fragment"><p><a href="https://www.3dhubs.com/s3fs-public/styles/printer_main_picture/public/printer-ultimaker.png?itok=r2QrqjeB">Ultimaker</a></p></li><li class="fragment"><p><a href="https://www.bicephale.fr/">Une imprimante rennaise !</a></p></li></ul></div></section>
+<section id="_le_mouvement_reprap"><h2>Le mouvement Reprap</h2><div class="ulist"><ul><li class="fragment"><p>Mouvement créé en 2005, première imprimante "Mendel" 2009</p></li><li class="fragment"><p>La plus connue, la <a href="https://www.reprap-france.com/sites/default/files/styles/prod-fiche/public/externals/3d339b11be4c13df79d4437a233a2013.png?itok=GaPslBhr">Prusa I3</a> - <a href="https://www.youtube.com/watch?v=AomaNIpup30">video</a></p></li><li class="fragment"><p>La <a href="https://www.reprap-france.com/sites/default/files/styles/prod-fiche/public/externals/8075446f6f4eb407f26aa11ed30b40eb.png?itok=ATcGkPEB">micro Delta</a> - <a href="https://www.youtube.com/watch?v=B5qno8i7wdY">video</a></p></li><li class="fragment"><p><a href="https://www.youtube.com/watch?v=xLutE9tAho0">Smartrap française</a></p></li><li class="fragment"><p><a href="https://www.youtube.com/watch?v=af7XkgxzmXE">Gus Simpson</a></p></li></ul></div></section>
+<section id="_fonctionnement_des_imprimantes_3d"><h2>Fonctionnement des imprimantes 3D</h2><div class="paragraph"><p>Pourquoi est-il intéressant de connaître le fonctionnement d&#8217;une imprimante 3D ?</p></div>
+<div class="ulist"><ul><li class="fragment"><p>Fonctionnement mécanique</p></li><li class="fragment"><p>Fonctionnement électronique</p></li><li class="fragment"><p>Fonctionnement logiciel</p></li></ul></div></section>
+<section id="_fonctionnement_mcanique"><h2>Fonctionnement mécanique</h2><div class="ulist"><ul><li class="fragment"><p>Les filaments (PLA - ABS - Bois) <a href="https://www.filimprimante3d.fr/">Autres filaments</a></p></li><li class="fragment"><p>La tête d&#8217;impression (<a href="http://aus3d.com.au/image/catalog/products/E3D/E3D-V6/V6-300-B.png">hotends</a>)</p></li><li class="fragment"><p><a href="https://cdn.hackaday.io/images/2056931408480029801.png">L&#8217;extrudeur</a> - <a href="https://cdn.thingiverse.com/renders/a4/58/0c/35/0f/My_Photo_2-1_display_large_preview_featured.jpg">Geared extrudeur</a> <a href="https://cdn.thingiverse.com/renders/bc/7d/07/98/26/img_0004_preview_featured.jpg">Direct extruder</a></p></li><li class="fragment"><p>Les mouvements en XYZ - Les moteurs Nema pas à pas</p></li><li class="fragment"><p>L&#8217;importance de la hauteur du lit et de sa planéité</p></li><li class="fragment"><p><a href="https://protype3d.fr/609-thickbox_default/plateau-chauffant-mk3-aluminium.jpg">Lit chauffant</a></p></li></ul></div></section>
+<section id="_fonctionnement_lectronique"><h2>Fonctionnement électronique</h2><div class="ulist"><ul><li class="fragment"><p>Eléctronique propriétaire / open source</p></li><li class="fragment"><p>Cas d&#8217;une arduino + <a href="http://www.makersking.com/eBay/Items/DB106/ramps-1.4-schema-1920px.jpg">ramps</a></p></li><li class="fragment"><p><a href="https://www.youtube.com/watch?v=6g_ykyAMjLE">Upload d&#8217;un firmware (7 min 10s)</a></p></li><li class="fragment"><p><a href="http://solidutopia.com/fr/configurer-le-firmware-marlin/">Configuration du firmware Marlin</a></p></li><li class="fragment"><p>Pour éviter de réuploader à chaque fois, l&#8217;EEPROM</p></li></ul></div></section>
+<section id="_fonctionnement_logiciel"><h2>Fonctionnement logiciel</h2><div class="ulist"><ul><li class="fragment"><p>Conception d&#8217;un modèle 3D avec un modeleur (<a href="http://images.adsttc.com/media/images/5833/03a2/e58e/ceb1/c100/0345/large_jpg/Sketchup2013.jpg?1479738266">sketchup</a>, <a href="https://www.tinkercad.com/">Tinkercad</a>, <a href="https://www.freecadweb.org/wiki/images/thumb/c/c7/Satnogs_Rotator_FreeCAD.jpg/1024px-Satnogs_Rotator_FreeCAD.jpg">Freecad</a>)</p></li><li class="fragment"><p>Enregistrer au format <a href="https://fr.wikipedia.org/wiki/Fichier_de_st%C3%A9r%C3%A9olithographie"><strong>STL</strong></a></p></li><li class="fragment"><p>Passage dans un slicer (<a href="https://i.ytimg.com/vi/RX2_e7RqUH0/maxresdefault.jpg">Cura</a>)</p></li><li class="fragment"><p>Enregistrer au format <strong>GCODE</strong></p></li><li class="fragment"><p>Passage dans l&#8217;imprimante 3D</p></li></ul></div></section>
+<section id="_le_slicer_cura"><h2>Le slicer Cura</h2><div class="ulist"><ul><li class="fragment"><p>Charger le <a href="https://www.thingiverse.com/thing:2476792">STL</a> sur thingiverse</p></li><li class="fragment"><p>Bouger, zoomer, tourner le modèle</p></li><li class="fragment"><p>Agrandir / rétrécir</p></li><li class="fragment"><p>Mirroir</p></li><li class="fragment"><p>Dupliquer</p></li></ul></div></section>
+<section id="_options_de_l_impression"><h2>Options de l&#8217;impression</h2><div class="olist arabic"><ol class="arabic"><li class="fragment"><p>taille de la buse</p></li><li class="fragment"><p>choix du matériel</p></li><li class="fragment"><p>température</p></li><li class="fragment"><p>remplissage</p></li><li class="fragment"><p>support</p></li><li class="fragment"><p>adhesion</p></li><li class="fragment"><p>qualité</p></li><li class="fragment"><p>murs</p></li></ol></div></section>
+<section id="_a_vous_de_jouer"><h2>A vous de jouer !</h2><div class="olist arabic"><ol class="arabic"><li><p>Installer Cura</p></li><li><p>Choisir un modèle sur Thingiverse</p></li><li><p>Le passer dans le slicer et détecter les problèmes</p></li><li><p>Imprimer le modèle</p></li></ol></div></section></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'beige',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

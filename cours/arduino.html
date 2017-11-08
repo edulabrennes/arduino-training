@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>UEO - Fabrication numérique</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/beige.css" id="theme"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>UEO - Fabrication numérique</h1></section><section id="_qu_est_ce_que_l_arduino"><h2>Qu&#8217;est ce que l&#8217;Arduino ?</h2><div class="ulist"><ul><li class="fragment"><p><a href="https://cdn-reichelt.de/bilder/web/xxl_ws/B300/ARDUINO_UNO_A06.png">Une carte eléctronique</a></p></li><li class="fragment"><p>Elle contient des Entrées / Sorties (Digital et Analogiques)</p></li><li class="fragment"><p>Un mircoprocesseur programmable</p></li></ul></div></section>
+<section id="_les_raisons_du_succs"><h2>Les raisons du succès</h2><div class="ulist"><ul><li class="fragment"><p>Très facile à programmer avec un ordinateur (<a href="https://a.pololu-files.com/picture/0J5280.1200.png?bf69c3b4670a3fb8177e28384e777540">IDE</a>)</p></li><li class="fragment"><p>Langage C simplifié</p></li><li class="fragment"><p>Open Source</p></li></ul></div></section>
+<section id="_exemples"><h2>Exemples</h2><div class="ulist"><ul><li class="fragment"><p><a href="https://www.youtube.com/watch?v=6mXM-oGggrM">8x8x8 led cube</a></p></li><li class="fragment"><p><a href="https://vimeo.com/53476316">Pinokio</a></p></li><li class="fragment"><p><a href="https://www.youtube.com/watch?v=7ztbMLb_dS4">The inebriator</a></p></li><li class="fragment"><p><a href="https://www.youtube.com/watch?v=osOUCuXLpXI">Cleaner bot</a></p></li><li class="fragment"><p>A vous de chercher !</p></li></ul></div></section>
+<section id="_installation"><h2>Installation</h2><div class="ulist"><ul><li class="fragment"><p>Installer l&#8217;IDE</p></li><li class="fragment"><p>Choisir la carte</p></li><li class="fragment"><p>Choisir le port série</p></li><li class="fragment"><p>Brancher l&#8217;Arduino</p></li><li class="fragment"><p>Compiler le programme</p></li><li class="fragment"><p>Envoyer le programme</p></li></ul></div></section>
+<section id="_le_premier_programme_arduino"><h2>Le premier programme Arduino</h2><div class="ulist"><ul><li class="fragment"><p>Blink</p></li><li class="fragment"><p>Les commentaires</p></li><li class="fragment"><p>Le langage C</p></li><li class="fragment"><p>Fonctions setup() et loop()</p></li><li class="fragment"><p>Appel de la fonction delay()</p></li><li class="fragment"><p>Changement du paramètre de delay()</p></li><li class="fragment"><p>Recherche de la documentation</p></li><li class="fragment"><p>Appel d&#8217;autres fonctions (pinMode, digitalWrite) + documentation</p></li><li class="fragment"><p>Exercice (Allumer la led 300ms et l&#8217;éteindre 50ms)</p></li></ul></div></section>
+<section id="_mesurer_une_distance"><h2>Mesurer une distance</h2><div class="ulist"><ul><li class="fragment"><p>Identifier un module</p></li><li class="fragment"><p><a href="https://www.carnetdumaker.net/articles/mesurer-une-distance-avec-un-capteur-ultrason-hc-sr04-et-une-carte-arduino-genuino/">Chercher un exemple</a></p></li><li class="fragment"><p>La plaque d&#8217;essai</p></li><li class="fragment"><p>Les câbles dupont</p></li><li class="fragment"><p>Branchement</p></li><li class="fragment"><p>Uploader le code</p></li><li class="fragment"><p>Le faire fonctionner</p></li></ul></div></section>
+<section id="_la_librairie_serial"><h2>La librairie Serial</h2><div class="ulist"><ul><li class="fragment"><p>A quoi ça sert ?</p></li><li class="fragment"><p>Inclure une librairie</p></li><li class="fragment"><p>Initialisation dans setup()</p></li><li class="fragment"><p>La vitesse de transmission</p></li><li class="fragment"><p>Utilisation dans loop()</p></li><li class="fragment"><p>Affichage dans le moniteur série Arduino</p></li></ul></div></section>
+<section id="_sur_quoi_est_construit_github"><h2>Sur quoi est construit GitHub ?</h2><div class="ulist"><ul><li class="fragment"><p><a href="https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions">Définition du logiciel de gestion de version</a></p></li><li class="fragment"><p>Git, créé par Linus Torvald, 12 000 000 d&#8217;utilisateurs</p></li><li class="fragment"><p>GitHub : service web au dessus de Git</p></li></ul></div></section>
+<section id="_utiliser_github"><h2>Utiliser GitHub</h2><div class="ulist"><ul><li class="fragment"><p><a href="https://github.com/">Aller sur GitHub</a></p></li><li class="fragment"><p>Se créer un compte (<a href="mailto:edulab.rennes@gmail.com">edulab.rennes@gmail.com</a> / edulab35)</p></li><li class="fragment"><p>Invitation des membres (Settings / Collaborators)</p></li><li class="fragment"><p>Le fichier Readme.md</p></li><li class="fragment"><p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Le markdown</a></p></li><li class="fragment"><p>Créer un nouveau fichier et un nouveau <a href="https://stackoverflow.com/questions/18773598/creating-folders-inside-github-com-repo-without-using-git">répertoire</a></p></li><li class="fragment"><p>Télécharger un fichier</p></li></ul></div></section>
+<section id="_rgles__respecter"><h2>Règles à respecter</h2><div class="ulist"><ul><li class="fragment"><p>Quand on ajoute un nouveau projet, le décrire en une ligne dans le README.md à la racine du projet</p></li><li class="fragment"><p>Pour chaque répertoire, créer un fichier README.md qui décrit précisément le projet</p></li><li class="fragment"><p>Ne pas oublier les branchements électriques</p></li></ul></div></section></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'beige',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>
