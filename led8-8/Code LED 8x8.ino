@@ -1,4 +1,3 @@
-# Code LED 8x8
 
 // Exemple de code Module Max7219 reseau de 8x8 LEDS
 //
