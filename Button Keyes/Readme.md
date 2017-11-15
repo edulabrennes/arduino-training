@@ -1,7 +1,8 @@
 
 PRINCIPLE:
 
-Fontioner le button
+Fonctionner le button
+Nous savons S'il fonctione quand nous pressons le button et le led sur l'arduino eteint
 
 BRANCHEMENT:
 
