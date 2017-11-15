@@ -1,4 +1,3 @@
-
 // Test utilisation servomoteur SG90 //
 
 #include <Servo.h> 
@@ -13,5 +12,11 @@ void setup()
   
   
 void loop() 
-{  
+{ 
+  monservo.write(0); 
+  delay(1000); 
+  monservo.write(70); 
+  delay(1000); 
+  monservo.write(150); 
+  delay(1000); 
 }
