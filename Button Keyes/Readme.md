@@ -2,7 +2,7 @@
 PRINCIPLE:
 
 - Fonctionner le button
-- Nous savons S'il fonctione quand nous pressons le button et le led sur l'arduino eteint
+- Nous savons S'il fonctionne quand nous pressons le button et le led sur l'arduino eteint
 
 BRANCHEMENT:
 
