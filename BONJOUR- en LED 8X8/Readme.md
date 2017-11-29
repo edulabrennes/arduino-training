@@ -5,7 +5,7 @@ Nom et Prenom:
 
 
 PRINCIPE:
-- Affficher le mot "Bonjour" sur la LED 8x8 avec le bouton. Après la fin du message, il faut réappuyer sur le bouton pour que le message s'affiche encore.
+- Affficher le mot "Bonjour" sur la LED 8x8 en appuyant sur le bouton. Après la fin du message, il faut réappuyer sur le bouton pour que le message s'affiche encore.
 
 BRANCHEMENT:
 
