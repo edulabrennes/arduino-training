@@ -2,6 +2,7 @@ PRINCIPE:
 - Affficher le mot "Bonjour" sur la LED 8x8 avec le bouton. Après la fin du message, il faut réappuyer sur le bouton pour que le message s'affiche encore.
 
 BRANCHEMENT:
+
 Bouton:
 - "Pin -" = GND              --> GND
 - "Pin (Pin Millieur)" = +5V   --> 5V
