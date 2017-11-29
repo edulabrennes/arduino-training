@@ -1,4 +1,8 @@
-# Branchement:
+# Oled
+
+
+
+## Branchements:
 
 * gnd -> gnd 
 * sda -> sda
@@ -7,3 +11,6 @@
 
 
 Article utilisé: http://rdiot.tistory.com/302
+
+
+Lucile Renaud & Dylan Germanicus
