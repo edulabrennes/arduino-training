@@ -20,3 +20,7 @@ LED 8x8:
 - DIN --> Pin8
 - CS  --> Pin 9
 - CLK --> Pin 10
+
+Ligne Projet:
+
+https://youtu.be/vEL3ZfEQ9Wg
