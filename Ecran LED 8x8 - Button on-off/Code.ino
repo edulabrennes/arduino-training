@@ -1,6 +1,3 @@
-// Exemple de code Module Max7219 reseau de 8x8 LEDS
-//
-// Revision 19 08 2013
 
 int Led = 13 ;// define LED Interface
 int buttonpin = 3; // define the key switch sensor interface
@@ -110,21 +107,24 @@ void setup()
  
 void loop()
 { 
-  val = digitalRead (buttonpin); // digital interface will be assigned a value of 3 to read val
-    if (val == HIGH)  // When the key switch when the sensor detects a signal, LED flashes
-  {
-    digitalWrite (Led, HIGH);
-    for(j=0;j<38;j++)
-    {  //Faire défiler les caracteres a afficher
-     for(int i=1;i<9;i++)  //Afficher un caractere à la fois
-      Write_Max7219(i,disp1[j][i-1]);
-     delay(100);  //Attente pour laisser le temps de lire
+  
+    
+    for(j=0;j<38;j++) // On affiche les 38 caractères
+    {  
+      val = digitalRead (buttonpin); // digital interface will be assigned a value of 3 to read val
+      if (val == LOW) {  // When the key switch when the sensor detects a signal, LED flashes {
+        //Faire défiler les caracteres a afficher
+        for(int i=1;i<9;i++)  //Afficher un caractere à la fois
+          Write_Max7219(i,disp1[j][i-1]);
+      } else {
+        // On efface la matrice de leds
+        for(int i=1;i<9;i++)  //Afficher un caractere à la fois
+          Write_Max7219(i,disp1[37][i-1]);
+        
+      }
+       delay(100);  //Attente pour laisser le temps de lire
+     }
      
-    }       
-  }
-  else
-  {
-    digitalWrite (Led, LOW);
-  }  
+    
     
 }
