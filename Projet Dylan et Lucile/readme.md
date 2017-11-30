@@ -8,11 +8,11 @@ Les capteurs PIR, pour Passive Infrared Sensor (capteur infrarouge passif) perme
 
 ## Branchements du capteur de présence
 
-*Pin1 +V -> Alim +5V de l'arduino
+* Pin1 +V -> Alim +5V de l'arduino
 
-*Pin2 OUT -> Signal pin 2 digital Arduino
+* Pin2 OUT -> Signal pin 2 digital Arduino
 
-*Pin3 GND -> GND
+* Pin3 GND -> GND
 
 
 Pour voir si cela fontionne, il suffit d'aller dans la fenêtre "moniteur série" dans outils, et lorsqu'un mouvement sera détecté; le message "motion detected !" apparaîtra. Dès que le capteur ne perçoit plus de mouvement, le message "motion ended" apparaîtra à son tour.
