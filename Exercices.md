@@ -1,9 +1,9 @@
 
 # Recherche de documentation :
-* if then else avec arduino
-* while avec arduino
-* for avec arduino
-* les variables avec Arduino
+* [if then else avec arduino](https://www.arduino.cc/reference/en/language/structure/control-structure/else/)
+* [while avec arduino](https://www.arduino.cc/reference/en/language/structure/control-structure/while/)
+* [for avec arduino](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
+* [les variables avec Arduino](https://www.arduino.cc/en/Reference/VariableDeclaration)
 
 # Exercices
 
