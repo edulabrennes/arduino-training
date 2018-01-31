@@ -11,18 +11,28 @@
 
 2. Avec une boucle for, faire clignoter la led comme cela :
 100 ms allumée
+
 100 ms eteinte
+
 200 ms allumée
+
 200 ms eteinte
+
 …
+
 900 ms allumée
+
 900 ms eteinte
+
 1000 ms allumée
+
 1000 ms eteinte
+
 etc.
 
 2bis. – idem précédent, mais avec une deuxième boucle
 100 ms allumée
+
 100 ms eteinte
 200 ms allumée
 200 ms eteinte
