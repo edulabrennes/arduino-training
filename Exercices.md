@@ -7,7 +7,7 @@
 
 # Exercices
 
-## 1. A partir de blink, faire clignoter la led tout les 500ms
+## 1. A partir de Examples / basics / blink, faire clignoter la led tout les 500ms
 
 ## 2. Avec une boucle for, faire clignoter la led comme cela :
 100 ms allumée
