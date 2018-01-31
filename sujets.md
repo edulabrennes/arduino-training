@@ -12,7 +12,7 @@ Le monde marin (Scène immergée dans l’eau).
 
 Corps humain (Globules blancs, globules rouges, etc)
 
-Usine (Film Les temps modernes)
+** Usine (Film Les temps modernes) **
 
 Peur 
 
@@ -24,6 +24,6 @@ Fête foraine dans les airs, objets accrochés au plafond
 
 Formes géométriques
 
-Fabriquer à partir d’objets de récupération – monde lilliputien
+** Fabriquer à partir d’objets de récupération – monde lilliputien **
 
 Inverser animaux / humains
