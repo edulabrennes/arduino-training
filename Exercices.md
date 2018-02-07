@@ -30,7 +30,7 @@
 
 etc.
 
-## 2bis. – idem précédent, mais avec une deuxième boucle
+## 2bis. – idem précédent, mais ajouter une deuxième boucle
 100 ms allumée
 
 100 ms eteinte
